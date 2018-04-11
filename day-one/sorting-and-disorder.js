@@ -8,14 +8,6 @@ function partition(arr, lo, hi) {
 
 }
 
-// Max Binary Heap
-
-function Heap(val){
-  this.val = val;
-  this.left = null;
-  this.right = null;
-}
-
 // Heap Sort
 // Some potentially helpful functions are provided below
 const getLeftChildInd = index => (2 * index) + 1
@@ -74,8 +66,3 @@ function hoarePartition() {
 
 const quicksortLomuto = createSort(lomutoPartion);
 const quicksortHoare= createSort(hoarePartition);
-
-
-function inversions(){
-
-}
